@@ -17,4 +17,7 @@ def user_regirter():
   password = input("cree un password de 8 caracteres")
   user.append(password)
   print("usuario creado con exito")
-  
+  print(user)
+
+def user_login():
+  print("login")  
